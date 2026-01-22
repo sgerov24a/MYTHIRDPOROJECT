@@ -6,4 +6,5 @@ if st.button("Check"):
   st.warniong("Please enter text.")
  elif not name is apha():
   st.warning("Warning!")
-else st.success("The text is corect!")
+ else:
+st.success("The text is corect!")
