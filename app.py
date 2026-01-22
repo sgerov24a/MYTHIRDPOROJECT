@@ -1,4 +1,4 @@
-import Streamlit as st
+import streamlit as st
 st.title("LoginSystem")
 name  = st.text_input("Enter name:")
 if st.button("Check"):
